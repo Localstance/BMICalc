@@ -1,0 +1,5 @@
+/* import stylesheets and hide from IE/Mac \*/
+@import url("reset.css");
+@import url("all.css");
+
+/* end import/hide */

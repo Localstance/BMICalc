@@ -1,0 +1,98 @@
+body {
+	background: #e2e2e2;
+}
+
+#wrapper {
+	max-width: 100%;
+	margin: 0 auto;
+	font-family: OpenSans, Verdana, sans-serif;
+	opacity: 0.95;
+	text-shadow: 0 0 25px rgba(0,0,0,0.2), 0 0 25px rgba(231,231,246,0.6);
+}
+header h1 {
+	font-size: 30px;
+	text-align: center;
+	margin: 10px auto;
+}
+form {
+	text-align: center;
+	font-size: 24px;
+	max-width: 50%;
+	margin: 0 auto;
+}
+.form-wrapper {
+	width: 40%;
+	margin: 25px auto;
+}
+.form-wrapper fieldset {
+	margin: 25px auto;
+}
+form label {
+	float: left;
+	font-size: 16px;
+
+}
+input#height, input#weight {
+	float: right;
+	background: rgba(255,255,255, 0.5);
+	outline: none;
+	border-color: inherit;
+	border-radius: 5px;
+}
+input#calculate {
+	font-size: 20px;
+	padding: 4px 18px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.result p {
+	font-size: 20px;
+	text-align: center;
+}
+#BMI {
+	font-size: 21px;
+}
+
+.infoTable {
+	width: 50%;
+	text-align: center;
+	margin: 22px auto;
+	font-size: 18px;
+	box-shadow: 0 0 25px rgba(0,0,0,0.5);
+}
+.infoTable thead tr{
+	background-color: #e7e7f6;
+}
+.infoTable th, .infoTable td {
+	border: 1px solid black;
+	padding: 10px 16px;
+}
+.infoTable tr {
+	background: rgba(255,255,255, 0.5);
+}
+
+#inCaseOfErrorH, #inCaseOfErrorW {
+	position: absolute;
+	font-size: 14px;
+	color: tomato;
+	padding: 5px 0 0 5px;
+	z-index: 99;
+	left: 60%;
+	display: none;
+}
+
+@font-face {
+	font-family: "OpenSans";
+	src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/*clear*/
+.group:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
